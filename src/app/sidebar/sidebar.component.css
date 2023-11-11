@@ -1,0 +1,19 @@
+/* sidebar.component.css */
+.sidebar-container {
+  position: relative;
+  display: block;
+  margin-top: -685px;
+
+}
+
+.sidebar-toggle-button {
+  position: absolute;
+  top: 0; /* Ajuste este valor conforme necessário para posicionar como desejado */
+  left: 0; /* Ajuste este valor conforme necessário para posicionar como desejado */
+  z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+}
+
+/* Certifique-se de que a barra lateral tem um z-index alto quando é expandida */
+::ng-deep  {
+    color: rgb(255, 8, 0);
+}

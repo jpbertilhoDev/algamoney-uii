@@ -1,0 +1,54 @@
+.btn-left-align {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.col-valor-header {
+  width: 120px !important;
+  text-align: center;
+}
+
+.col-valor-content {
+  text-align: center !important;
+}
+
+.col-data-header {
+  text-align: center;
+}
+
+.col-data-content {
+  text-align: center !important;
+}
+
+.p-datatable-gridlines {
+  margin-left: auto; /* Empurra a tabela para a direita */
+}
+
+.col-acoes {
+  width: 120px;
+  text-align: center;
+}
+
+.col-acoes > a {
+  margin-right: 5px !important;
+}
+
+
+
+::ng-deep .p-toolbar {
+  background-color: #3B82F6;
+}
+
+::ng-deep .p-button.p-button-icon-only.p-button-rounded{
+  color: rgb(255, 255, 255);
+
+}
+
+::ng-deep .p-toolbar {
+  width: 100%; /* Define a largura como 100% da largura do viewport */
+  box-sizing: border-box; /* Faz com que o padding e border sejam incluídos na largura total */
+  margin: 0; /* Remove qualquer margem */
+  padding: 0; /* Remove qualquer preenchimento */
+
+}

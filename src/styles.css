@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+body{
+  color: #0b3471;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  color: #0b3471;
+
+}
+
+label{
+  font-weight: bold !important;
+}
+
+@media (min-width: 1300px) {
+  .container{
+    width: 1270px !important;
+    margin: 0 auto !important;
+  }
+}
+
+
+
+
+
